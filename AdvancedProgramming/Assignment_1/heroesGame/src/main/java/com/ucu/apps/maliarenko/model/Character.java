@@ -12,11 +12,12 @@ public class Character implements Fighter {
 
     private int power = 0;
     private int hp = 0;
+    private String name;
 
     public boolean isAlive() {
         boolean b = getHp() > 0;
         if (!b) {
-            System.out.println("RIP " + getClass().getSimpleName() + "!");
+            System.out.println("RIP " + getClass().getSimpleName() + " " + getName() +  "!");
         }
         return b;
     }
