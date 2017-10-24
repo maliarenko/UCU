@@ -11,7 +11,7 @@ import com.ucu.apps.maliarenko.model.Character;
  */
 public class App 
 {
-    private static CharacterFactory characterFactory;
+    public static CharacterFactory characterFactory;
     public static void main( String[] args ) {
 
         Faker faker = new Faker();

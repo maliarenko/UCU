@@ -18,6 +18,7 @@ public class Knight extends Character {
 
     private int power;
     private int hp;
+    private String name;
 
 
     public Knight(){
@@ -29,7 +30,7 @@ public class Knight extends Character {
 
         character.decreaseHp(Utils.getRandomInt(0, getPower()));
 
-        System.out.println(getClass().getSimpleName() + " kick " + character.getClass().getSimpleName() + ". Effect: " + character.toString());
+        System.out.println(getClass().getSimpleName() + " " + name + " kick " + character.getClass().getSimpleName() + ' ' + character.getName() + ". Effect: " + character.toString());
 
     }
 }

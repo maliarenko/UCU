@@ -14,6 +14,7 @@ public class Hobbit extends Character {
 
     private int power;
     private int hp;
+    private String name;
 
     public Hobbit(){
         this.setPower(defaultPower);
