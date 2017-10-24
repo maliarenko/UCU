@@ -23,7 +23,7 @@ public class App
         c2.setName(faker.name().firstName());
 
         System.out.println(c1.toString() + " vs " + c2.toString());
-
+        System.out.println("\nThe tour is about to start, gentlemen!\n");
         GameManager gameManager = new GameManager();
         gameManager.fight(c1, c2);
 
