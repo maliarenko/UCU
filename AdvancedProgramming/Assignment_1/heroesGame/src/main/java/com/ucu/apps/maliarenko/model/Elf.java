@@ -14,6 +14,7 @@ public class Elf extends Character {
 
     private int power;
     private int hp;
+    private String name;
 
     public Elf(){
         this.setPower(defaultPower);
@@ -28,7 +29,7 @@ public class Elf extends Character {
             character.decreasePower(1);
         }
 
-        System.out.println(getClass().getSimpleName() + " kick " + character.getClass().getSimpleName() + ". Effect: " + character.toString());
+        System.out.println(getClass().getSimpleName() + " " + name + " kick " + character.getClass().getSimpleName() + ' ' + character.getName() + ". Effect: " + character.toString());
 
     }
 
