@@ -6,7 +6,7 @@ import com.ucu.apps.maliarenko.model.Character;
 import com.ucu.apps.maliarenko.model.Fighter;
 
 /**
- * Hello world!
+ * Heroes Game!
  *
  */
 public class App 
