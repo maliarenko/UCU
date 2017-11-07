@@ -24,7 +24,7 @@ public class App
         weekdays.put(6,"Su");
 
         int dayNumber = 4;
-        System.out.println(weekdays.get(dayNumber));
+        System.out.println(dayNumber + "th" + " day of week it's: " + weekdays.get(dayNumber));
 
 
         //another case with lambda
