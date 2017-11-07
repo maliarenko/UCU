@@ -12,6 +12,10 @@ public class IRobot {
     @Getter
     private int version;
 
+    @InjectRandomName
+    @Getter
+    private String name;
+
     public void cleanRoom() {
         speaker.speak("I started my work");
         cleaner.clean();

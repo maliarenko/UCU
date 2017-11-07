@@ -24,8 +24,7 @@ public class ObjectFactory {
         Reflections reflections = new Reflections("com.maliarenko.a2");
 
         Set<Class<? extends ObjectConfigurator>> objectConfiguratorSubTypes = reflections.getSubTypesOf(ObjectConfigurator.class);
-
-
+        
         for (Class<? extends ObjectConfigurator> objectConfiguratorSubType : objectConfiguratorSubTypes) {
             if (!Modifier.isAbstract(objectConfiguratorSubType.getModifiers())) {
                 objectConfigurators.add(objectConfiguratorSubType.newInstance());

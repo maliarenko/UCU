@@ -16,6 +16,7 @@ public class App
         IRobot iRobot = ObjectFactory.getInstance().createObject(IRobot.class);
         iRobot.cleanRoom();
         System.out.println("iRobot.Version: " + iRobot.getVersion());
+        System.out.println("iRobot.Name: " + iRobot.getName());
 
     }
 }
