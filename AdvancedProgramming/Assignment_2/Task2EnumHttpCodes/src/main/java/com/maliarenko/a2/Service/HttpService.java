@@ -1,6 +1,6 @@
-package com.maliarenko.a2.service;
+package com.maliarenko.a2.Service;
 
-import com.maliarenko.a2.status.HttpStatus;
+import com.maliarenko.a2.Status.HttpStatus;
 
 import java.io.IOException;
 

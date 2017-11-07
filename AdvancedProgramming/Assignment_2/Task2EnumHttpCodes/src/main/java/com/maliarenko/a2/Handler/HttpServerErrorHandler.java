@@ -1,4 +1,4 @@
-package com.maliarenko.a2.handler;
+package com.maliarenko.a2.Handler;
 
 import java.io.IOException;
 
