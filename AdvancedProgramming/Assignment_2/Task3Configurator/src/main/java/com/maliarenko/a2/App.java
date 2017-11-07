@@ -8,10 +8,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        InjectRandomIntConfigurator objectConfigurator = new InjectRandomIntConfigurator();
-        IRobot iRobot = ObjectFactory.getInstance().addObjectConfigurator(objectConfigurator).createObject(IRobot.class);
+
+        // some variant for manual
+        //InjectRandomIntConfigurator objectConfigurator = new InjectRandomIntConfigurator();
+        //IRobot iRobot = ObjectFactory.getInstance().addObjectConfigurator(objectConfigurator).createObject(IRobot.class);
+
+        IRobot iRobot = ObjectFactory.getInstance().createObject(IRobot.class);
         iRobot.cleanRoom();
-        System.out.println(iRobot.getVersion());
+        System.out.println("iRobot.Version: " + iRobot.getVersion());
 
     }
 }
