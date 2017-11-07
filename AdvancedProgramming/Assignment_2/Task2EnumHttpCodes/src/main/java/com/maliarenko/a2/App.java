@@ -1,5 +1,7 @@
 package com.maliarenko.a2;
 
+import com.maliarenko.a2.Service.HttpService;
+
 import java.io.IOException;
 
 /**

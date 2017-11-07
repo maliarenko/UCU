@@ -1,4 +1,6 @@
-package com.maliarenko.a2;
+package com.maliarenko.a2.Status;
+
+import com.maliarenko.a2.Handler.*;
 
 import java.util.NoSuchElementException;
 
